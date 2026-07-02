@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kargha — Handloom Clothing, Woven Not Manufactured</title>
+<meta name="description" content="Kargha brings handloom sarees, kurtas and stoles from forty-two weaving clusters across India — Banaras, Kutch, Pochampally, Chanderi — straight to your wardrobe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="thread-progress" aria-hidden="true"><div class="thread-progress__fill" id="threadProgress"></div></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header__inner">
+    <a href="#top" class="logo">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="30" height="30"><path d="M4 20c4-10 8-10 12 0s8 10 12 0 8-10 12 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo__word">Kargha</span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <a href="#collections">Collections</a>
+      <a href="#craft">Our Craft</a>
+      <a href="#journal">Journal</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" id="cartBtn" aria-label="View bag">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <a href="#collections">Collections</a>
+  <a href="#craft">Our Craft</a>
+  <a href="#journal">Journal</a>
+  <a href="#visit">Visit Us</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__pattern" aria-hidden="true"></div>
+    <div class="wrap hero__inner">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Est. at the loom — Chanderi, 2011</p>
+        <h1 class="hero__headline">Every thread remembers<br> the hand that placed it.</h1>
+        <p class="hero__sub">Kargha works with forty-two weaving clusters across India — Banaras, Kutch, Pochampally, Chanderi — to bring handloom sarees, kurtas and stoles into your everyday wardrobe. No power looms. No shortcuts.</p>
+        <div class="hero__ctas">
+          <a href="#collections" class="btn btn--primary">Explore the Collections</a>
+          <a href="#craft" class="btn btn--ghost">Meet the Karigars</a>
+        </div>
+      </div>
+      <div class="hero__art reveal" aria-hidden="true">
+        <svg viewBox="0 0 420 520" class="drape-svg">
+          <defs>
+            <linearGradient id="drapeA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#A31545"/>
+              <stop offset="100%" stop-color="#5C1030"/>
+            </linearGradient>
+            <linearGradient id="drapeB" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#C9A227"/>
+              <stop offset="100%" stop-color="#C97C2C"/>
+            </linearGradient>
+          </defs>
+          <path d="M60 40 C 40 200, 120 260, 70 480 L 180 480 C 150 300, 220 220, 190 40 Z" fill="url(#drapeA)"/>
+          <path d="M210 60 C 200 220, 280 260, 240 500 L 340 500 C 300 320, 360 240, 330 60 Z" fill="url(#drapeB)" opacity="0.92"/>
+          <g stroke="#EDE3D0" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+            <path d="M70 90 C 55 220, 110 260, 80 440"/>
+            <path d="M95 90 C 80 220, 135 260, 105 440"/>
+            <path d="M220 100 C 212 230, 270 260, 245 470"/>
+            <path d="M245 100 C 237 230, 295 260, 270 470"/>
+          </g>
+          <g fill="#EDE3D0" fill-opacity="0.65">
+            <path d="M120 150c8-10 8-20 0-28-8 8-8 18 0 28z"/>
+            <path d="M150 260c8-10 8-20 0-28-8 8-8 18 0 28z"/>
+            <path d="M270 180c8-10 8-20 0-28-8 8-8 18 0 28z"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <svg class="thread-divider" data-thread viewBox="0 0 1200 40" preserveAspectRatio="none">
+      <path d="M0 20 Q 30 2 60 20 T 120 20 T 180 20 T 240 20 T 300 20 T 360 20 T 420 20 T 480 20 T 540 20 T 600 20 T 660 20 T 720 20 T 780 20 T 840 20 T 900 20 T 960 20 T 1020 20 T 1080 20 T 1140 20 T 1200 20" />
+    </svg>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track" id="marqueeTrack">
+      <span>ZARI</span><span>·</span><span>BANDHANI</span><span>·</span><span>IKAT</span><span>·</span><span>AJRAKH</span><span>·</span><span>KANJEEVARAM</span><span>·</span><span>CHIKANKARI</span><span>·</span><span>KHADI</span><span>·</span><span>KALAMKARI</span><span>·</span>
+      <span aria-hidden="true">ZARI</span><span aria-hidden="true">·</span><span aria-hidden="true">BANDHANI</span><span aria-hidden="true">·</span><span aria-hidden="true">IKAT</span><span aria-hidden="true">·</span><span aria-hidden="true">AJRAKH</span><span aria-hidden="true">·</span><span aria-hidden="true">KANJEEVARAM</span><span aria-hidden="true">·</span><span aria-hidden="true">CHIKANKARI</span><span aria-hidden="true">·</span><span aria-hidden="true">KHADI</span><span aria-hidden="true">·</span><span aria-hidden="true">KALAMKARI</span><span aria-hidden="true">·</span>
+    </div>
+  </div>
+
+  <!-- COLLECTIONS -->
+  <section class="collections" id="collections">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">The loom's library</p>
+        <h2>Six weaves, six stories</h2>
+        <p class="section-head__sub">Every swatch below is a real technique, tied to the region that has practiced it for generations. Tap a colourway to see it shift.</p>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="p-card reveal" data-pattern="banarasi" style="--c1:#A31545;--c2:#C9A227;">
+          <div class="p-card__swatch swatch swatch--banarasi"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Varanasi, Uttar Pradesh</p>
+            <h3>Banarasi Zari Silk</h3>
+            <p>Woven with real zari on century-old pit looms — one saree, roughly fifteen days.</p>
+            <div class="p-card__row">
+              <span class="price">₹18,500</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#A31545" data-c1="#A31545" data-c2="#C9A227" aria-label="Rani &amp; gold"></button>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#C9A227" aria-label="Indigo &amp; gold"></button>
+                <button class="dot" style="--dc:#1E5B3A" data-c1="#1E5B3A" data-c2="#C9A227" aria-label="Emerald &amp; gold"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Banarasi Zari Silk">Add to bag</button>
+          </div>
+        </article>
+
+        <article class="p-card reveal" data-pattern="bandhani" style="--c1:#C97C2C;--c2:#EDE3D0;">
+          <div class="p-card__swatch swatch swatch--bandhani"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Kutch, Gujarat</p>
+            <h3>Bandhani Tie-Dye Cotton</h3>
+            <p>Every dot tied by hand, one knot at a time, before the cloth ever meets dye.</p>
+            <div class="p-card__row">
+              <span class="price">₹4,200</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#C97C2C" data-c1="#C97C2C" data-c2="#EDE3D0" aria-label="Turmeric"></button>
+                <button class="dot" style="--dc:#A31545" data-c1="#A31545" data-c2="#EDE3D0" aria-label="Rani pink"></button>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#EDE3D0" aria-label="Indigo"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Bandhani Tie-Dye Cotton">Add to bag</button>
+          </div>
+        </article>
+
+        <article class="p-card reveal" data-pattern="ikat" style="--c1:#2B3A67;--c2:#C97C2C;">
+          <div class="p-card__swatch swatch swatch--ikat"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Pochampally, Telangana</p>
+            <h3>Pochampally Ikat</h3>
+            <p>Yarn dyed before it's woven — the pattern lives inside the thread, not on top of it.</p>
+            <div class="p-card__row">
+              <span class="price">₹7,800</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#C97C2C" aria-label="Indigo &amp; turmeric"></button>
+                <button class="dot" style="--dc:#5C1030" data-c1="#5C1030" data-c2="#C9A227" aria-label="Wine &amp; gold"></button>
+                <button class="dot" style="--dc:#1E5B3A" data-c1="#1E5B3A" data-c2="#EDE3D0" aria-label="Emerald &amp; ivory"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Pochampally Ikat">Add to bag</button>
+          </div>
+        </article>
+
+        <article class="p-card reveal" data-pattern="ajrakh" style="--c1:#2B3A67;--c2:#5C1030;">
+          <div class="p-card__swatch swatch swatch--ajrakh"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Kutch, Gujarat</p>
+            <h3>Ajrakh Block Print</h3>
+            <p>Fourteen steps, natural indigo and madder root, stamped block by block by hand.</p>
+            <div class="p-card__row">
+              <span class="price">₹5,600</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#5C1030" aria-label="Indigo &amp; madder"></button>
+                <button class="dot" style="--dc:#1E5B3A" data-c1="#1E5B3A" data-c2="#C97C2C" aria-label="Olive &amp; rust"></button>
+                <button class="dot" style="--dc:#241714" data-c1="#241714" data-c2="#C9A227" aria-label="Ink &amp; gold"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Ajrakh Block Print">Add to bag</button>
+          </div>
+        </article>
+
+        <article class="p-card reveal" data-pattern="kanjeevaram" style="--c1:#1E5B3A;--c2:#C9A227;">
+          <div class="p-card__swatch swatch swatch--kanjeevaram"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Kanchipuram, Tamil Nadu</p>
+            <h3>Kanjeevaram Silk</h3>
+            <p>Temple borders woven separately in a heavier warp, then joined to the body by hand.</p>
+            <div class="p-card__row">
+              <span class="price">₹22,000</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#1E5B3A" data-c1="#1E5B3A" data-c2="#C9A227" aria-label="Emerald &amp; gold"></button>
+                <button class="dot" style="--dc:#A31545" data-c1="#A31545" data-c2="#C9A227" aria-label="Rani &amp; gold"></button>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#C9A227" aria-label="Indigo &amp; gold"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Kanjeevaram Silk">Add to bag</button>
+          </div>
+        </article>
+
+        <article class="p-card reveal" data-pattern="chikankari" style="--c1:#EDE3D0;--c2:#C97C2C;">
+          <div class="p-card__swatch swatch swatch--chikankari"></div>
+          <div class="p-card__body">
+            <p class="p-card__tag">Lucknow, Uttar Pradesh</p>
+            <h3>Chikankari Cotton</h3>
+            <p>Shadow-work embroidery — around forty hand stitches used across a single kurta.</p>
+            <div class="p-card__row">
+              <span class="price">₹6,900</span>
+              <div class="swatch-dots" data-dots>
+                <button class="dot" style="--dc:#EDE3D0" data-c1="#EDE3D0" data-c2="#C97C2C" aria-label="Ivory &amp; turmeric"></button>
+                <button class="dot" style="--dc:#2B3A67" data-c1="#2B3A67" data-c2="#EDE3D0" aria-label="Indigo &amp; ivory"></button>
+                <button class="dot" style="--dc:#5C1030" data-c1="#5C1030" data-c2="#EDE3D0" aria-label="Wine &amp; ivory"></button>
+              </div>
+            </div>
+            <button class="btn btn--line add-bag" data-name="Chikankari Cotton">Add to bag</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+    <svg class="thread-divider" data-thread viewBox="0 0 1200 40" preserveAspectRatio="none">
+      <path d="M0 20 Q 30 38 60 20 T 120 20 T 180 20 T 240 20 T 300 20 T 360 20 T 420 20 T 480 20 T 540 20 T 600 20 T 660 20 T 720 20 T 780 20 T 840 20 T 900 20 T 960 20 T 1020 20 T 1080 20 T 1140 20 T 1200 20" />
+    </svg>
+  </section>
+
+  <!-- CRAFT / STORY -->
+  <section class="craft" id="craft">
+    <div class="wrap craft__inner">
+      <div class="craft__quote reveal">
+        <svg class="quote-mark" viewBox="0 0 40 30" width="44" aria-hidden="true"><path d="M0 30V16C0 6 6 0 16 0v6c-6 0-10 4-10 10h10v14H0zm22 0V16c0-10 6-16 16-16v6c-6 0-10 4-10 10h10v14H22z" fill="currentColor"/></svg>
+        <p>A handloom saree takes anywhere from three days to three months. We have never asked a weaver to go faster.</p>
+        <cite>— Kargha, founding note, 2011</cite>
+      </div>
+
+      <div class="craft__timeline reveal">
+        <p class="eyebrow">How we got here</p>
+        <ol class="timeline">
+          <li>
+            <span class="timeline__year">2011</span>
+            <p>Founded with three weaving families in Chanderi, Madhya Pradesh.</p>
+          </li>
+          <li>
+            <span class="timeline__year">2015</span>
+            <p>Expanded to Kutch's bandhani and ajrakh clusters; first natural-dye line.</p>
+          </li>
+          <li>
+            <span class="timeline__year">2019</span>
+            <p>Launched a fair-wage, pay-on-order program directly with karigars.</p>
+          </li>
+          <li>
+            <span class="timeline__year">2024</span>
+            <p>120 artisan families across seven states. Zero power looms, still.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <svg class="thread-divider" data-thread viewBox="0 0 1200 40" preserveAspectRatio="none">
+      <path d="M0 20 Q 30 2 60 20 T 120 20 T 180 20 T 240 20 T 300 20 T 360 20 T 420 20 T 480 20 T 540 20 T 600 20 T 660 20 T 720 20 T 780 20 T 840 20 T 900 20 T 960 20 T 1020 20 T 1080 20 T 1140 20 T 1200 20" />
+    </svg>
+  </section>
+
+  <!-- JOURNAL / TESTIMONIALS -->
+  <section class="journal" id="journal">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">From the wearers</p>
+        <h2>Notes back to the loom</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="t-card reveal">
+          <p>"I wore the Kanjeevaram to my sister's wedding and three separate aunties asked which weaver made it. I sent them the label."</p>
+          <cite>— Ananya R., Bengaluru</cite>
+        </blockquote>
+        <blockquote class="t-card reveal">
+          <p>"The ajrakh kurta softened with every wash instead of wearing out. That's the difference natural dye makes."</p>
+          <cite>— Farhan M., Pune</cite>
+        </blockquote>
+        <blockquote class="t-card reveal">
+          <p>"Ordered the bandhani dupatta not expecting much and now it's the thing I reach for every single Friday."</p>
+          <cite>— Meher K., Jaipur</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="wrap newsletter__inner reveal">
+      <div>
+        <p class="eyebrow">Stay close to the loom</p>
+        <h2>Join the warp &amp; weft</h2>
+        <p>New drops, restocks, and the occasional note from a weaving cluster. No spam — we don't have the time either.</p>
+      </div>
+      <form class="newsletter__form" id="newsletterForm" novalidate>
+        <label for="nlEmail" class="sr-only">Email address</label>
+        <input type="email" id="nlEmail" name="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn--primary">Subscribe</button>
+      </form>
+      <p class="newsletter__msg" id="newsletterMsg" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="visit">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <span class="logo__word">Kargha</span>
+      <p>Handloom clothing from forty-two weaving clusters across India. Woven, not manufactured.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#collections">New Arrivals</a></li>
+        <li><a href="#collections">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="#craft">Our Weavers</a></li>
+        <li><a href="#craft">Fabric Care</a></li>
+        <li><a href="#craft">Sustainability</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <ul>
+        <li>C-14, Bapu Bazaar, Jaipur, Rajasthan</li>
+        <li><a href="mailto:hello@kargha.in">hello@kargha.in</a></li>
+        <li>+91 141 234 5678</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <p>© 2026 Kargha. Handcrafted in India.</p>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑ Top</button>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
